@@ -44,6 +44,15 @@ body {
   text-align: center;
 }
 
+.headshot {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 0 20px;
+  border: 1px solid var(--border);
+}
+
 .eyebrow {
   margin: 0 0 12px;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -73,6 +82,26 @@ h1 {
   font-size: 15px;
   line-height: 1.6;
   color: var(--muted);
+}
+
+.resume-link {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 10px 24px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.resume-link:hover {
+  background: var(--accent);
+  color: var(--card-bg);
 }
 
 .divider {
